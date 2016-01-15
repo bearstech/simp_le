@@ -1,0 +1,13 @@
+Source: simp-le
+Section: utils
+Priority: extra
+Maintainer: Jakub Warmuz <jakub@warmuz.org>
+Build-Depends: debhelper (>= 9), python2.7, python2.7-dev, libssl-dev, libffi-dev, dh-virtualenv (>= 0.8)
+Standards-Version: 0.0.1
+Homepage: https://github.com/kuba/simp_le
+
+Package: simp-le
+Architecture: amd64
+Pre-Depends: dpkg (>= 1.16.1), python2.7, libffi6, ${misc:Pre-Depends}
+Depends: ${python:Depends}, ${misc:Depends}, libssl1.0.0 (>= 1.0.1)
+Description: Simple letsencrypt client.

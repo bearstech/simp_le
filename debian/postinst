@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -L /usr/bin/simp_le ]; then
+  ln -s /usr/share/python/simp-le/bin/simp_le /usr/bin/simp_le;
+fi
