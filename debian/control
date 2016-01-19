@@ -2,9 +2,10 @@ Source: simp-le
 Section: utils
 Priority: extra
 Maintainer: Jakub Warmuz <jakub@warmuz.org>
-Build-Depends: debhelper (>= 9), python2.7, python2.7-dev, libssl-dev, libffi-dev, dh-virtualenv (>= 0.8)
+Build-Depends: debhelper (>= 9), python2.7, python2.7-dev, python-setuptools, libssl-dev, libffi-dev, dh-virtualenv (>= 0.7)
 Standards-Version: 0.0.1
 Homepage: https://github.com/kuba/simp_le
+XS-Python-Version: 2.7
 
 Package: simp-le
 Architecture: amd64

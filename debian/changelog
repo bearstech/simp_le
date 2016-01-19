@@ -1,3 +1,9 @@
+simp-le (0.0.1-2) unstable; urgency=low
+
+  * Fix Debian Jessie dependencies
+
+ -- Mathieu Lecarme <mlecarme@bearstech.com>  Tue, 19 Jan 2016 10:48:00 +0200
+
 simp-le (0.0.1-1) unstable; urgency=low
 
   * Initial package.
