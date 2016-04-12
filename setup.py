@@ -16,7 +16,7 @@ install_requires = [
     'requests',
 ]
 
-if sys.version_info < (2, 7):
+if sys.version_info < (2, 8):
     install_requires.extend([
         'argparse',
         'mock<1.1.0',
