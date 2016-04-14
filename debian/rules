@@ -4,5 +4,4 @@
 	dh $@ --with python-virtualenv
 
 override_dh_virtualenv:
-	dh_virtualenv --preinstall "setuptools>=11.3"
-#	dh_virtualenv --upgrade-pip --index-url https://pypi.python.org/simple/
+	dh_virtualenv --upgrade-pip --index-url https://pypi.python.org/simple/
